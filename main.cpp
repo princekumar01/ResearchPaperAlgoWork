@@ -3,8 +3,8 @@ using namespace std;
 //#define d2r (M_PI / 180.0)
 const double d2r=0.0174532925199433;
     // Declare ifstream objects
-    std::ifstream file1("beijing_adj.txt");
-    std::ifstream file2("beijing_sent_matched_timed200.txt");
+    ifstream file1("beijing_adj.txt");
+    ifstream file2("beijing_sent_matched_timed200.txt");
 
    
     // Declare ofstream object for output
